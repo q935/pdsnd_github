@@ -1,8 +1,6 @@
-### Date created
-* 2020-11-10
+### **Exploring US bikeshare data**
 
-### Project Title
-* Exploring US bikeshare data
+### Date created **2020-11-10**
 
 ### Description
 * Exploring US bikeshare data for Chicago, Washington DC and New York using Python.
