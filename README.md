@@ -7,7 +7,7 @@
 
 ### Files used
 * Script: bikeshare_2.py
-* Data used: https://drive.google.com/file/d/1km4EggJaSvHos_7KKFuHoJxbh-StyM4G/view?usp=sharing
+* Find the data used [here](https://drive.google.com/file/d/1km4EggJaSvHos_7KKFuHoJxbh-StyM4G/view?usp=sharing).
 
 ### Credits
 * Thanks to https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104 I am learning version control using Git and GitHub.
