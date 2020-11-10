@@ -1,15 +1,16 @@
 ### Date created
-Include the date you created this project and README file.
+2020-11-10
 
 ### Project Title
-Replace the Project Title
+Exploring US bikeshare data
 
 ### Description
-Describe what your project is about and what it does
+Exploring US bikeshare data for Chicago, Washington DC and New York using Python.
 
 ### Files used
-Include the files used
+Script: bikeshare_2.py
+Data used: https://drive.google.com/file/d/1km4EggJaSvHos_7KKFuHoJxbh-StyM4G/view?usp=sharing
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Thanks to https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104 I am learning version control using Git and GitHub.
+Special thanks to out to Richard Kalehoff (Udacity mentor) https://github.com/richardkalehoff for creating the detailed course on version control
