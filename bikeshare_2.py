@@ -221,8 +221,8 @@ def main():
 
         time_stats(df,no_of_lines)
         station_stats(df,no_of_lines)
-        trip_duration_stats(df)
         user_stats(df,no_of_lines)
+        trip_duration_stats(df)
         show_raw_data(df)
 
         restart = input('\nWould you like to restart? ? (Y/N)')
