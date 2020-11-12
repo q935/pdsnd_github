@@ -203,14 +203,16 @@ def get_chunk(dataframe: pd.DataFrame, chunk_size: int, start_row: int = 0):
 def show_raw_data(df):
     """Shows lines of raw data including user prompt"""
     chunk_size = 5
-    raw_data_prompt = input("Would you like to see {} lines of raw data? (Y/N) ".format(chunk_size)).lower()
     start_row = 0
-    while raw_data_prompt == 'y':
-        chunk = get_chunk(df,chunk_size,start_row)
-        chunk = chunk.iloc[:,1:8] # show only raw data columns and not calculated columns in this programm
-        print(chunk)
-        start_row += chunk_size
-        raw_data_prompt = input("\nWould you like to see {} more lines of raw data? (Y/N) ".format(chunk_size)).lower()
+	while True:
+		raw_data_prompt = input("\nWould you like to see {} more lines of raw data? (Y/N) ".format(chunk_size)).lower()
+		if raw_data_prompt == 'y':
+			chunk = get_chunk(df,chunk_size,start_row)
+			chunk = chunk.iloc[:,1:8] # show only raw data columns and not calculated columns in this programm
+			print(chunk)
+			start_row += chunk_size
+		else:
+			break
 
 def main():
     while True:
@@ -219,8 +221,8 @@ def main():
 
         time_stats(df,no_of_lines)
         station_stats(df,no_of_lines)
-        trip_duration_stats(df)
         user_stats(df,no_of_lines)
+        trip_duration_stats(df)
         show_raw_data(df)
 
         restart = input('\nWould you like to restart? ? (Y/N)')
